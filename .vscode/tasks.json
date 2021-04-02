@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build UI",
+            "type": "shell",
+            "command": "pyuic5 design.ui -o design.py",
+            "args": [] 
+        },
+        {
+            "label": "Start",
+            "type": "shell",
+            "command": "python3 main.py",
+            "args": [] 
+        }
+    ]
+}
